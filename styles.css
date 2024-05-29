@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.holder{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	flex-wrap: wrap;
+	
+}
+
+.div{
+	width: 100px;
+	height: 100px;
+	
+}
+
+.d-1{
+	background-color: green;
+}
+
+.d-2{
+	background-color: red;
+}
+
+.d-3{
+	background-color: blue;
+}
